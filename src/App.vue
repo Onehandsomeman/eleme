@@ -12,7 +12,6 @@
         <router-link tag="a" to="/seller">商家</router-link>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -23,8 +22,7 @@ export default {
   name: 'app',
   data(){
     return{
-      show:false,
-      seller:null
+      seller:{}
     }
   },
   created(){
